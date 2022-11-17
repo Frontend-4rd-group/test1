@@ -1,0 +1,89 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background: url(./img/pexels-tom-lok-6476882.jpg) no-repeat center;
+}
+a{
+  color: black;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+a:hover{
+  background-color: rgb(171, 168, 168);
+}
+/* Header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 2px solid rgb(177, 170, 170);
+  background-color: white;
+}
+header>div, header>div>ul{
+  display: flex;
+  align-items: center;
+}
+.menu{
+  margin-left: 500px;
+}
+.logo >span{
+  font-size: 30px;
+  font-weight: 600;
+}
+.menu>ul>li{
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.lag>p{
+  font-size: 20px;
+  opacity: 0.6;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+/* Section  */
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+section > p{
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+section>div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.Appstore{
+  display: flex;
+  background-color: rgb(60, 59, 59);
+  margin: 0px 10px;
+  padding: 13px 25px;
+  border-radius: 8px;
+}
+.Googleplay{
+  display: flex;
+  background-color: rgb(60, 59, 59);
+  padding: 14.5px 25px;
+  border-radius: 8px;
+}
+section >div div p{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+}
